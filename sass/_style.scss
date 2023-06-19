@@ -62,7 +62,7 @@ body{
 }
 .sld-card-nav:hover{
     background-color: whitesmoke;
-    color: black !important;
+    color: rgb(19, 18, 18) !important;
     transition-duration: 700ms !important;
     
 }
@@ -78,8 +78,70 @@ body{
     display: block;
     height: 27vh;
 }
+.img-area{
+    width: 300px;
+    height: 30vh;
+    img{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+.img-wrap{
+    width: 100%;
+    height: 100%;
+    max-width: max-content;
+}
 
 
+
+.hdr-users-icon-title{
+    font-weight: bold;
+}
+
+.product-card{
+    width: 300px;
+    height: 48vh;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-like{
+    i{
+        border-radius: 2px;
+    }
+}
+.product-name{
+    font-weight: 500;
+}
+.price-info{
+    transition-duration: 1200ms;
+    height: 6.2vh;
+    border-radius: 5px;
+}
+.btn-buy{
+    transition-duration: 1200ms;
+    height: 6.2vh;
+}
+
+.effect{
+    margin: 0;
+}
+
+.effect:hover{
+    transition-duration: 1200ms !important;
+    .price-info{
+        display: none;
+        height: 20px;
+        
+    }
+    .btn-buy{
+        display: grid !important;
+    }
+    .btn-buy:hover{
+        
+    }
+}
 
 
 @media(max-width:560px){
