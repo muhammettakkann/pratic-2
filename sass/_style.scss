@@ -1,0 +1,112 @@
+body{
+    background-color: whitesmoke;
+}
+.logo-title{
+    color: black;
+    font-weight:500;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 10px;
+}
+.logo-title:hover{
+    color: orange !important;
+    box-shadow: 0px 0px 20px 0px purple;
+    transition-duration: 700ms;
+}
+.logo-icon{
+    color: orange;
+    transition-duration: 1200ms;
+}
+.logo-title:hover{
+    .logo-icon{
+        color: black;
+    }
+}
+.form-control{
+    cursor: pointer;
+}
+.header-call-button{
+    transition-duration: 700ms;
+}
+.bg-nav{
+    background: #95483f;
+    background-image: linear-gradient(90deg, #000004, #160b39, #420a68, #6a176e, #932667, #ba3655, #dd513a, #f3991b, #fc0a0a, #120f04, #000000);
+}
+.navbar-items{
+    .nav-link{
+        border-radius: 10px;
+        padding: 10px;
+        color: whitesmoke !important;
+        padding-left: 13px !important;
+        padding-right: 13px !important;
+        letter-spacing: 1.2px !important;
+    }
+    .active{
+        box-shadow: 0px 0px 10px 0px whitesmoke;
+    }
+    .nav-link:hover{
+        box-shadow: 0px 0px 10px 0px whitesmoke;
+    }
+}
+
+.sld-card-navs{
+    background-color:#fff;
+    background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+    height: 37.3vh;
+}
+.sld-card-nav{
+    color: whitesmoke !important;
+    font-weight: 500 !important;
+    box-shadow: 0px 0px 10px 0px white;
+    width: 270px; 
+    border-radius: 20px;
+}
+.sld-card-nav:hover{
+    background-color: whitesmoke;
+    color: black !important;
+    transition-duration: 700ms !important;
+    
+}
+.product-card{
+    width: 270px;
+    max-width: 100%;
+    object-fit: cover;
+    text-align: center;
+}
+.product-img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: 27vh;
+}
+
+
+
+
+@media(max-width:560px){
+    .bg-nav{
+        background-color: #FFFFFF;
+        background-image: linear-gradient(135deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+        transition-duration: 1200ms;
+        .nav-link{
+            color: black !important;
+            text-align: center;
+            padding-bottom: 5px;
+            font-weight: 500;
+            transition-duration: 700ms;
+            border-radius: 20px;
+        }
+        .nav-link:focus{
+            color: whitesmoke;
+            background: #a896c5;
+            background-image: linear-gradient(90deg, #f7fcfd, #e4eff5, #ccddec, #b2cae1, #9cb3d5, #8f95c6, #8c74b5, #8952a5, #852d8f, #730f71, #730f71);
+            
+        }
+    }
+    .navbar-items{
+        .active{
+            box-shadow: 0px 0px 10px 0px purple;
+        }
+    }
+}
+
+
