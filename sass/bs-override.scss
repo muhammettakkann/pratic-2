@@ -30,17 +30,14 @@
     background-image: linear-gradient(180deg, #000000 0%, #784BA0 50%, #2B86C5 100%);
 }
 .nav-item{
-    margin-top: 0.4rem !important;
     text-align: center;
-    margin-inline: 20% !important;
     cursor: pointer !important;
-    margin-top: 1rem !important;
 }
 .nav-link{
     border-radius: 7px !important;
-    padding: 10px !important;
     letter-spacing: 1.2px !important;
     transition-duration: 1200ms;
+    margin-inline:  5px;
 }
 .navbar-items{
     .active{
@@ -53,5 +50,13 @@
         box-shadow: 0px 0px 40px 0px whitesmoke;
     }
 }
+@media(max-width:767px){
+    .nav-link{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .nav-item{
+        margin-top: 2%;
 
-
+    }
+}
