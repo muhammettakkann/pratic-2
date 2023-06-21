@@ -51,12 +51,15 @@
     }
 }
 @media(max-width:767px){
+    // mobil
     .nav-link{
         margin-left: 10%;
         margin-right: 10%;
+        padding: 2% !important;
     }
     .nav-item{
         margin-top: 2%;
 
     }
 }
+
